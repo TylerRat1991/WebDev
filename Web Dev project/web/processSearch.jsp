@@ -1,7 +1,7 @@
 <%-- 
     Document   : processSearch
-    Created on : Apr 24, 2018, 1:18:39 PM
-    Author     : p-did
+    Created on : Apr 25, 2018, 9:34:21 PM
+    Author     : Tyler
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -16,6 +16,5 @@
      <% 
        response.sendRedirect("Search.jsp");
        %>
-        
     </body>
 </html>

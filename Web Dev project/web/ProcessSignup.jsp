@@ -1,7 +1,7 @@
 <%-- 
     Document   : ProcessSignup
-    Created on : Apr 25, 2018, 3:59:53 PM
-    Author     : p-did
+    Created on : Apr 25, 2018, 9:33:00 PM
+    Author     : Tyler
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -15,7 +15,6 @@
     <body>
       <% 
            try{
-
         java.sql.Connection con;
         Class.forName("com.mysql.jdbc.Driver");
         con= DriverManager.getConnection("jdbc:mysql://localhost:3306/webdevproject",
@@ -51,6 +50,5 @@
         out.println("SQL Exception caught: " + e.getMessage());
        }
        %>
-        
     </body>
 </html>

@@ -1,0 +1,101 @@
+/* 
+    Created on : Apr 25, 2018, 8:30:40 PM
+    Author     : Tyler
+*/
+body{
+    background: url('../images/books.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    background-attachment: fixed;
+}
+
+figure{
+    border: 0;
+    border-radius: 24px;
+    margin: 0;
+    padding: 0;
+    width: 14%;
+    background-color: transparent;
+}
+
+p{
+    border-radius: 12px;
+    padding: 32px 16px;
+    text-align: right;
+}
+
+@font-face{
+    font-family: Selawik-Light;
+    src: url(fonts/Selawik-Light.ttf);
+}
+
+div{
+    font-family: Selawik-Light;
+    text-shadow: 2px 2px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    border: 0;
+    border-radius: 24px;
+    width: 50%;
+}
+
+button{
+    padding: 14px 40px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    font-family: Selawik-Light;
+}
+
+input{
+    height:20px;
+    font-size:14pt;
+}
+
+.book2{
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.img2{
+    width: 200px;
+}
+
+#reviewBook{
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+#notice{
+    font-family: Selawik-Light;
+    text-shadow: 2px 2px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    border: 0;
+    border-radius: 24px;
+    width: 50%;
+}
+
+#philCom{
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+#megCom{
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.4);
+}
